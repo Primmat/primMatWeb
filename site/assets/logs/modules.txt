@@ -1,0 +1,67 @@
+2021-03-01 10:11:35	?	?	Saved module 'SystemUpdater' config data
+2021-03-01 10:11:36	?	?	Saved module info caches
+2021-03-01 10:11:36	guest	http://localhost:8888/http404/	Saved module info caches
+2021-03-01 10:11:36	guest	http://localhost:8888/http404/	Installed module 'ProcessRecentPages'
+2021-03-01 10:11:36	guest	http://localhost:8888/http404/	Saved module info caches
+2021-03-01 10:11:36	guest	http://localhost:8888/http404/	Saved module 'SystemUpdater' config data
+2021-03-01 10:11:37	guest	http://localhost:8888/http404/	Saved module info caches
+2021-03-01 10:11:37	guest	http://localhost:8888/http404/	Installed module 'AdminThemeUikit'
+2021-03-01 10:11:37	guest	http://localhost:8888/http404/	Saved module info caches
+2021-03-01 10:11:42	guest	http://localhost:8888/processwire/login/	Saved module 'ProcessProfile' config data
+2021-03-01 10:11:42	guest	http://localhost:8888/processwire/login/	Saved module info caches
+2021-03-01 10:11:43	guest	http://localhost:8888/processwire/login/	Installed module 'ProcessLogger'
+2021-03-01 10:11:43	guest	http://localhost:8888/processwire/login/	Saved module info caches
+2021-03-01 10:11:43	guest	http://localhost:8888/processwire/login/	Installed module 'InputfieldIcon'
+2021-03-01 10:11:43	guest	http://localhost:8888/processwire/login/	Saved module info caches
+2021-03-01 10:11:43	guest	http://localhost:8888/processwire/login/	Saved module 'SystemUpdater' config data
+2021-03-01 10:11:48	guest	http://localhost:8888/processwire/login/	Saved module 'SystemUpdater' config data
+2021-03-01 10:11:49	?	?	Saved module 'SystemUpdater' config data
+2021-03-01 10:11:50	?	?	Saved module info caches
+2021-03-01 10:11:50	manager	http://localhost:8888/processwire/?login=1	Saved module 'SystemUpdater' config data
+2021-03-01 10:11:50	manager	http://localhost:8888/processwire/page/?login=1	Saved module 'SystemUpdater' config data
+2021-03-01 10:11:52	?	?	Saved module info caches
+2021-03-01 10:11:52	?	?	Saved module 'SystemUpdater' config data
+2021-03-01 10:11:52	?	?	Saved module info caches
+2021-03-01 10:11:53	manager	http://localhost:8888/processwire/page/list/?id=1&render=JSON&start=0&lang=0&open=undefined&mode=actions	Saved module 'SystemUpdater' config data
+2021-03-01 10:11:59	manager	http://localhost:8888/processwire/module/?new=	Saved module 'SystemUpdater' config data
+2021-03-01 10:12:15	manager	http://localhost:8888/processwire/module/download/	Saved module info caches
+2021-03-01 10:13:42	manager	http://localhost:8888/processwire/module/?reset=1	Saved module info caches
+2021-03-01 10:48:30	manager	http://localhost:8888/processwire/module/?reset=1	Saved module info caches
+2021-03-01 10:48:43	manager	http://localhost:8888/processwire/module/?reset=1	Saved module info caches
+2021-03-01 10:50:03	manager	http://localhost:8888/processwire/module/	Saved module info caches
+2021-03-01 10:50:12	manager	http://localhost:8888/processwire/module/?reset=1	Saved module info caches
+2021-03-01 10:50:21	manager	http://localhost:8888/processwire/module/	Installed module 'ProcessTracyAdminer'
+2021-03-01 10:50:21	manager	http://localhost:8888/processwire/module/	Installed module 'TracyDebugger'
+2021-03-01 10:50:22	manager	http://localhost:8888/processwire/module/	Saved module info caches
+2021-03-01 10:50:57	manager	http://localhost:8888/processwire/module/edit?name=TracyDebugger	Saved module 'TracyDebugger' config data
+2021-03-01 10:51:00	manager	http://localhost:8888/processwire/module/edit?name=TracyDebugger&collapse_info=1	Saved module 'TracyDebugger' config data
+2021-03-01 10:51:00	manager	http://localhost:8888/processwire/module/edit?name=TracyDebugger&collapse_info=1	Saved module 'TracyDebugger' config data
+2021-03-01 10:52:57	manager	http://localhost:8888/processwire/module/	Installed module 'ProcessLanguage'
+2021-03-01 10:52:58	manager	http://localhost:8888/processwire/module/	Saved module info caches
+2021-03-01 10:52:58	manager	http://localhost:8888/processwire/module/	Installed module 'ProcessLanguageTranslator'
+2021-03-01 10:52:58	manager	http://localhost:8888/processwire/module/	Saved module info caches
+2021-03-01 10:52:58	manager	http://localhost:8888/processwire/module/	Saved module 'LanguageSupport' config data
+2021-03-01 10:52:58	manager	http://localhost:8888/processwire/module/	Saved module 'ProcessProfile' config data
+2021-03-01 10:52:58	manager	http://localhost:8888/processwire/module/	Installed module 'LanguageSupport'
+2021-03-01 10:52:58	manager	http://localhost:8888/processwire/module/	Saved module info caches
+2021-03-01 10:53:02	manager	http://localhost:8888/processwire/module/edit?name=LanguageSupport	Saved module 'LanguageSupport' config data
+2021-03-10 16:48:25	manager	http://localhost:8888/processwire/module/	Installed module 'FieldtypeOptions'
+2021-03-10 16:48:26	manager	http://localhost:8888/processwire/module/	Saved module info caches
+2021-03-10 16:48:29	manager	http://localhost:8888/processwire/module/edit?name=FieldtypeOptions	Saved module 'FieldtypeOptions' config data
+2021-03-10 16:48:32	manager	http://localhost:8888/processwire/module/edit?name=FieldtypeOptions&collapse_info=1	Saved module 'FieldtypeOptions' config data
+2021-03-16 14:50:51	manager	http://localhost:8888/processwire/module/?reset=1	Saved module info caches
+2021-03-16 14:53:11	manager	http://localhost:8888/processwire/module/	Saved module info caches
+2021-03-16 14:53:12	manager	http://localhost:8888/processwire/module/?reset=1	Saved module info caches
+2021-03-16 14:53:33	manager	http://localhost:8888/processwire/module/	Installed module 'CkeLinkFiles'
+2021-03-16 14:53:33	manager	http://localhost:8888/processwire/module/	Saved module info caches
+2021-03-16 14:56:01	manager	http://localhost:8888/processwire/module/edit?name=CkeLinkFiles	Saved module 'CkeLinkFiles' config data
+2021-03-16 14:59:18	manager	http://localhost:8888/processwire/module/edit?name=CkeLinkFiles&collapse_info=1	Saved module 'CkeLinkFiles' config data
+2021-03-16 14:59:22	manager	http://localhost:8888/processwire/module/edit?name=CkeLinkFiles&collapse_info=1	Saved module 'CkeLinkFiles' config data
+2021-03-16 15:01:27	manager	http://localhost:8888/processwire/page/link/?id=1044&modal=1	Saved module 'InputfieldPage' config data
+2021-03-16 15:01:27	manager	http://localhost:8888/processwire/page/link/?id=1044&modal=1	Installed module 'InputfieldPageAutocomplete'
+2021-03-16 15:01:28	manager	http://localhost:8888/processwire/page/link/?id=1044&modal=1	Saved module info caches
+2021-04-14 16:44:40	manager	http://localhost:8888/processwire/module/download/	Saved module info caches
+2021-04-14 16:44:42	manager	http://localhost:8888/processwire/module/download/	Saved module info caches
+2021-04-14 16:44:46	manager	http://localhost:8888/processwire/module/	Installed module 'ProcessExportProfile'
+2021-04-14 16:44:47	manager	http://localhost:8888/processwire/module/	Saved module info caches
+2021-04-14 16:44:51	manager	http://localhost:8888/processwire/module/edit?name=ProcessExportProfile	Saved module 'ProcessExportProfile' config data

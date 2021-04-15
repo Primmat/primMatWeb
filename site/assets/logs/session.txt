@@ -1,0 +1,63 @@
+2021-03-01 10:11:49	manager	http://localhost:8888/processwire/login/	Successful login for 'manager'
+2021-03-02 20:45:26	?	?	User 'manager' - Session timed out (session older than 86400 seconds) (IP: 0.0.0.0)
+2021-03-03 10:10:42	guest	http://localhost:8888/processwire/login/	Error: Failed login for 'pepa' - Unknown user
+2021-03-03 10:10:46	manager	http://localhost:8888/processwire/login/	Successful login for 'manager'
+2021-03-05 10:23:16	?	?	User 'manager' - Session timed out (session older than 86400 seconds) (IP: 0.0.0.0)
+2021-03-05 10:23:28	manager	http://localhost:8888/processwire/login/	Successful login for 'manager'
+2021-03-07 11:23:50	?	?	User 'manager' - Session timed out (session older than 86400 seconds) (IP: 0.0.0.0)
+2021-03-07 11:23:50	?	?	User 'manager' - Session timed out (session older than 86400 seconds) (IP: 0.0.0.0)
+2021-03-07 11:23:50	?	?	User 'manager' - Session timed out (session older than 86400 seconds) (IP: 0.0.0.0)
+2021-03-07 11:23:54	guest	http://localhost:8888/processwire/login/	Error: Failed login for 'pepa' - Unknown user
+2021-03-07 11:23:57	manager	http://localhost:8888/processwire/login/	Successful login for 'manager'
+2021-03-07 11:41:52	?	?	User 'manager' - Error: Session fingerprint changed (IP address or useragent) (IP: 0.0.0.0)
+2021-03-07 11:48:16	manager	http://localhost:8888/processwire/login/?id=1038	Successful login for 'manager'
+2021-03-07 11:58:38	?	?	User 'manager' - Error: Session fingerprint changed (IP address or useragent) (IP: 0.0.0.0)
+2021-03-07 12:42:27	manager	http://localhost:8888/processwire/login/?id=1038	Successful login for 'manager'
+2021-03-07 13:01:51	?	?	User 'manager' - Error: Session fingerprint changed (IP address or useragent) (IP: 0.0.0.0)
+2021-03-09 12:05:06	manager	http://localhost:8888/processwire/login/	Successful login for 'manager'
+2021-03-10 14:39:04	?	?	User 'manager' - Error: Session fingerprint changed (IP address or useragent) (IP: 0.0.0.0)
+2021-03-10 14:40:11	manager	http://localhost:8888/processwire/login/?id=1040	Successful login for 'manager'
+2021-03-10 18:32:23	?	?	User 'manager' - Error: Session fingerprint changed (IP address or useragent) (IP: 0.0.0.0)
+2021-03-11 08:15:24	manager	http://localhost:8888/processwire/login/	Successful login for 'manager'
+2021-03-12 14:56:35	?	?	User 'manager' - Session timed out (session older than 86400 seconds) (IP: 0.0.0.0)
+2021-03-12 15:38:24	manager	http://localhost:8888/processwire/login/?id=50	Successful login for 'manager'
+2021-03-12 17:23:49	?	?	User 'manager' - Error: Session fingerprint changed (IP address or useragent) (IP: 0.0.0.0)
+2021-03-12 17:27:05	manager	http://localhost:8888/processwire/login/?id=115	Successful login for 'manager'
+2021-03-12 17:42:23	?	?	User 'manager' - Error: Session fingerprint changed (IP address or useragent) (IP: 0.0.0.0)
+2021-03-12 17:43:26	manager	http://localhost:8888/processwire/login/	Successful login for 'manager'
+2021-03-15 00:52:40	?	?	User 'manager' - Session timed out (session older than 86400 seconds) (IP: 0.0.0.0)
+2021-03-15 15:17:40	manager	http://localhost:8888/processwire/login/?id=1042	Successful login for 'manager'
+2021-03-19 13:45:19	?	?	User 'manager' - Session timed out (session older than 86400 seconds) (IP: 0.0.0.0)
+2021-03-19 13:45:32	guest	http://localhost:8888/processwire/login/?id=1084	Error: Failed login for 'pepa' - Unknown user
+2021-03-19 13:45:37	manager	http://localhost:8888/processwire/login/?id=1084	Successful login for 'manager'
+2021-03-23 13:30:24	?	?	User 'manager' - Session timed out (session older than 86400 seconds) (IP: 0.0.0.0)
+2021-03-23 13:33:45	manager	http://localhost:8888/processwire/login/?id=1084	Successful login for 'manager'
+2021-03-23 15:11:22	?	?	User 'manager' - Error: Session fingerprint changed (IP address or useragent) (IP: 0.0.0.0)
+2021-03-23 16:10:11	guest	http://localhost:8888/processwire/login/	Error: Failed login for 'pepa' - Unknown user
+2021-03-23 16:10:16	manager	http://localhost:8888/processwire/login/	Successful login for 'manager'
+2021-03-27 15:45:51	?	?	User 'manager' - Session timed out (session older than 86400 seconds) (IP: 0.0.0.0)
+2021-03-28 17:36:05	manager	http://localhost:8888/processwire/login/	Successful login for 'manager'
+2021-03-28 17:46:22	?	?	User 'manager' - Error: Session fingerprint changed (IP address or useragent) (IP: 0.0.0.0)
+2021-03-28 17:56:33	manager	http://localhost:8888/processwire/login/?id=1021	Successful login for 'manager'
+2021-03-28 18:06:36	?	?	User 'manager' - Error: Session fingerprint changed (IP address or useragent) (IP: 0.0.0.0)
+2021-03-28 18:28:54	manager	http://localhost:8888/processwire/login/?id=1030	Successful login for 'manager'
+2021-03-28 18:38:43	?	?	User 'manager' - Error: Session fingerprint changed (IP address or useragent) (IP: 0.0.0.0)
+2021-03-28 19:20:17	manager	http://localhost:8888/processwire/login/	Successful login for 'manager'
+2021-03-28 19:20:18	manager	http://localhost:8888/processwire/login/	Successful login for 'manager'
+2021-03-28 19:21:05	?	?	User 'manager' - Error: Session fingerprint changed (IP address or useragent) (IP: 0.0.0.0)
+2021-03-28 19:21:32	manager	http://localhost:8888/processwire/login/	Successful login for 'manager'
+2021-03-28 19:22:27	?	?	User 'manager' - Error: Session fingerprint changed (IP address or useragent) (IP: 0.0.0.0)
+2021-03-28 19:26:11	manager	http://localhost:8888/processwire/login/	Successful login for 'manager'
+2021-03-28 19:29:34	?	?	User 'manager' - Error: Session fingerprint changed (IP address or useragent) (IP: 0.0.0.0)
+2021-03-28 19:29:46	manager	http://localhost:8888/processwire/login/?id=1043	Successful login for 'manager'
+2021-03-28 19:31:32	?	?	User 'manager' - Error: Session fingerprint changed (IP address or useragent) (IP: 0.0.0.0)
+2021-03-28 19:41:05	manager	http://localhost:8888/processwire/login/	Successful login for 'manager'
+2021-03-29 14:43:08	?	?	User 'manager' - Error: Session fingerprint changed (IP address or useragent) (IP: 0.0.0.0)
+2021-03-29 15:11:21	manager	http://localhost:8888/processwire/login/	Successful login for 'manager'
+2021-03-31 11:32:53	?	?	User 'manager' - Session timed out (session older than 86400 seconds) (IP: 0.0.0.0)
+2021-04-05 15:06:50	manager	http://localhost:8888/processwire/login/?id=1073	Successful login for 'manager'
+2021-04-06 09:08:04	?	?	User 'manager' - Error: Session fingerprint changed (IP address or useragent) (IP: 0.0.0.0)
+2021-04-06 15:34:57	guest	http://localhost:8888/processwire/login/	Error: Failed login for 'manage' - Unknown user
+2021-04-06 15:34:58	manager	http://localhost:8888/processwire/login/	Successful login for 'manager'
+2021-04-14 16:43:21	?	?	User 'manager' - Session timed out (session older than 86400 seconds) (IP: 0.0.0.0)
+2021-04-14 16:43:36	manager	http://localhost:8888/processwire/login/	Successful login for 'manager'

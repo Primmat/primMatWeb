@@ -1,0 +1,10 @@
+2021-03-01 11:19:08	manager	http://localhost:8888/processwire/setup/field/send-templates-save?id=102	Odstraněna data pole "text" v řádku (řádcích) 0 ze stránky (stránek) používající šablonu "basic-page". [vedle-sebe]
+2021-03-12 15:42:22	manager	http://localhost:8888/processwire/setup/template/removeFields	Odstraněna data pole "postImage" v řádku (řádcích) 0 ze stránky (stránek) používající šablonu "obor". [vedle-sebe]
+2021-03-19 13:59:55	manager	http://localhost:8888/processwire/page/sort/	Updated sort for 3 pages
+2021-03-19 14:00:50	manager	http://localhost:8888/processwire/page/sort/	Updated sort for 5 pages
+2021-03-19 14:01:05	manager	http://localhost:8888/processwire/page/sort/	Updated sort for 4 pages
+2021-03-19 14:01:23	manager	http://localhost:8888/processwire/page/sort/	Updated sort for 2 pages
+2021-03-19 14:01:40	manager	http://localhost:8888/processwire/page/sort/	Updated sort for 6 pages
+2021-03-24 15:49:13	manager	http://localhost:8888/processwire/setup/template/removeFields	Odstraněna data pole "procStudovatNasNadpisUvodniStranka" v řádku (řádcích) 0 ze stránky (stránek) používající šablonu "home". [vedle-sebe]
+2021-03-24 15:49:13	manager	http://localhost:8888/processwire/setup/template/removeFields	Odstraněna data pole "procStudovatNasTextUvodniStranka" v řádku (řádcích) 0 ze stránky (stránek) používající šablonu "home". [vedle-sebe]
+2021-03-24 17:39:04	manager	http://localhost:8888/processwire/setup/template/removeFields	Odstraněna data pole "secondaryTitle" v řádku (řádcích) 0 ze stránky (stránek) používající šablonu "titleAndText". [vedle-sebe]

@@ -1,0 +1,137 @@
+<?php namespace ProcessWire;
+
+class CkeLinkFiles extends WireData implements Module, ConfigurableModule {
+
+	/**
+	 * Module information
+	 */
+	public static function getModuleInfo() {
+		return array(
+			'title' => 'CKEditor Link Files',
+			'version' => '0.1.6',
+			'summary' => 'Adds a menu to CKEditor to allow the quick insertion of links to files.',
+			'author' => 'Robin Sallis',
+			'href' => 'https://github.com/Toutouwai/CkeLinkFiles',
+			'icon' => 'link',
+			'autoload' => 'template=admin',
+			'requires' => 'ProcessWire>=3.0.0, PHP>=5.4.0',
+		);
+	}
+
+	/**
+	 * Ready
+	 */
+	public function ready() {
+		$this->addHookBefore('ProcessLogin::executeLogout', $this, 'ajaxResponse');
+		$this->addHookAfter('ProcessPageEdit::execute', $this, 'pageEditMods');
+	}
+
+	/**
+	 * Return AJAX response
+	 *
+	 * @param HookEvent $event
+	 */
+	protected function ajaxResponse(HookEvent $event) {
+		$input = $this->wire('input');
+		// Must be AJAX request, must be from this module, must include pid GET variable
+		if(!$this->wire('config')->ajax || $input->get->request !== $this->className() || !$input->get->pid) return;
+		$page = $this->wire('pages')->get($input->get->int('pid'));
+		$event->replace = true;
+		$event->cancelHooks	= true;
+		$result = [];
+		if($page->editable) {
+			// Get files from the page being edited
+			foreach($page->fields->find('type=FieldtypeFile') as $file_field) {
+				foreach($page->getUnformatted($file_field->name) as $file) {
+					$result[] = [
+						'url'=> $file->url,
+						'basename' => $file->basename,
+						'description' => $file->description
+					];
+				}
+			}
+			if($this->include_repeaters) {
+				// Get files from any Repeater field pages that are in the template of the page being edited
+				// Files inside nested Repeater fields are not supported
+				$fieldgroup = $page->template->fieldgroup;
+				foreach($fieldgroup->find('type=FieldtypeRepeater|FieldtypeRepeaterMatrix') as $repeater_field) {
+					// Get field in template context
+					$repeater_field = $fieldgroup->getFieldContext($repeater_field);
+					// Skip this field if the user doesn't have access to it
+					if($repeater_field->useRoles && !$repeater_field->editable()) continue;
+					$template = $this->wire('templates')->get($repeater_field->template_id);
+					foreach($template->fields->find('type=FieldtypeFile') as $file_field) {
+						foreach($page->getUnformatted($repeater_field->name) as $p) {
+							/* @var RepeaterPage $p */
+							foreach($p->getUnformatted($file_field->name) as $file) {
+								$result[] = [
+									'url'=> $file->url,
+									'basename' => $file->basename,
+									'description' => $file->description
+								];
+							}
+						}
+					}
+				}
+			}
+		}
+		$event->return = json_encode($result);
+	}
+
+	/**
+	 * Mods to ProcessPageEdit
+	 *
+	 * @param HookEvent $event
+	 */
+	protected function pageEditMods(HookEvent $event) {
+		$config = $this->wire('config');
+		// Return if ProcessPageEdit is being loaded via AJAX (image field)
+		if($config->ajax) return;
+
+		$page = $event->object->getPage();
+		$out = $event->return;
+
+		// Add CKEditor config JS
+		$js = '';
+		foreach($config->js() as $key => $value) {
+			if(strpos($key, 'InputfieldCKEditor_') !== false) $js .= "config.$key.extraPlugins += ',linkfilesmenu';";
+		}
+		if(!$js) return; // return if no CKEditor fields
+		$plugins_path = $config->urls->$this . 'plugin';
+		$js = "CKEDITOR.plugins.addExternal('linkfilesmenu', '{$plugins_path}/linkfilesmenu/');" . $js;
+		$out .= "<script>$js</script>";
+
+		// Add scripts and styles
+		$info = $this->getModuleInfo();
+		$version = $info['version'];
+		$config->styles->add($config->urls->$this . "{$this}.css?v=$version");
+
+		// Data to JS
+		$data = array();
+		$data['page_id'] = $page->id;
+		$data['all_files_text'] = '* ' . $this->_('Insert links to all files') . ' *';
+		$data['no_files_text'] = $this->_('No files on this page');
+		$config->js($this->className(), $data);
+
+		$event->return = $out;
+	}
+
+	/**
+	 * Config inputfields
+	 *
+	 * @param InputfieldWrapper $inputfields
+	 */
+	public function getModuleConfigInputfields($inputfields) {
+		$modules = $this->wire('modules');
+		/* @var InputfieldCheckbox $f */
+		$f = $modules->InputfieldCheckbox;
+		$f_name = 'include_repeaters';
+		$f->name = $f_name;
+		$f->label = $this->_("Repeater fields");
+		$f->label2 = $this->_("Include files from Repeater fields in the edited page");
+		$f->notes = $this->_("Nested Repeater fields (files inside a Repeater inside another Repeater) are not supported.");
+		$f->checked = $this->$f_name === 1 ? 'checked' : '';
+		$inputfields->add($f);
+	}
+
+}
